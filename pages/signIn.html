@@ -9,7 +9,7 @@
     <style>
          body {font-size: 30px}
 
-        #signUpform { 
+        #signInform { 
                 border: 1px solid black;
                 margin: 20px 20px 20px 20px;
                 padding: 30px;
@@ -18,7 +18,7 @@
                 display: block; 
             }
 
-        #email, #username, #signUpButton {
+        #email, #username, #signInButton {
             width:200px;
             height: 30px;
             font-size: 25px;
@@ -27,16 +27,16 @@
 <body>
     <div>
         
-        <div id = "signUpform">
-            <h1>Sign Up</h1>
-            <form action ="process_signup.php" method ="POST">
+        <div id = "signInform">
+            <h1>Sign In</h1>
+            <form action ="process_signin.php" method ="POST">
                 <label for ="email">Email:</label><br>
                 <input type="email" id ="email" name="email" required><br><br>
 
-                <label for ="username">Username:</label><br>
-                <input type="username" id ="username" name="username" required><br><br>
+                <!-- <label for ="username">Username:</label><br>
+                <input type="username" id ="username" name="username" required><br><br> -->
 
-                <button type ="submit" id = "signUpButton">Sign up</button>
+                <button type ="submit" id = "signInButton">Sign In</button>
             </form>
         </div>
     </div>
