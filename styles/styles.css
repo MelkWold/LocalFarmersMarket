@@ -1,0 +1,124 @@
+body, html {
+    margin:0;
+    padding:0;
+    background-color: beige;
+    font-size: 30px;
+    box-sizing:border-box;
+    height: 75vh;
+}
+
+#logoAndName {
+    display: flex;
+    justify-content: center;
+    margin: 10px 10px 5px 10px;
+    padding: 10px;
+}
+
+.icon {
+    margin-right: 10%;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    height:10vh;
+    margin: 10px 10px 10px 10px;
+    align-items: center;
+    padding:20px;
+    gap:40px;
+}
+
+#dropDown {
+    width:200px;
+    padding: 10px;
+    font-size:25px;
+    background-color: rgba(255, 228, 196, 0.385);
+    margin-left: auto;
+    border-radius: 10%;
+    height:60px
+}
+
+#dropDown :hover {
+    background-color: #910404;
+}
+
+#signin:hover {
+    background-color: rgba(0, 0, 255, 0.479);
+    color: black;
+    font-weight: bold;
+}
+
+#signup:hover {
+    background-color: gray;
+    color: black;
+    font-weight: bold;
+}
+
+#dropDown:hover {
+    background-color: rgb(238, 238, 244);
+    color: rgb(34, 0, 128);
+    font-weight: bold;
+}
+
+button {
+    background-color: cornflowerblue;
+    color: white;
+    width: 150px;
+    height: 60px;
+    font-size: 25px;
+    border-radius: 10%;
+    padding:10px;
+}
+
+
+#hero div {
+    gap: 20px;
+    text-align: center;
+}
+
+#hero {
+    /* height: 65vh; */
+    margin: 10px 10px 10px 10px;
+    padding: 20px;
+}
+
+#features {
+    /* height: 40vh; */
+    margin: 10px 10px 10px 10px;
+    padding: 20px;
+}
+
+#features div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    border: 1px dotted blue;
+    width: 500px;
+    height:300px;
+    padding: 40px;
+    margin:20px;
+}
+
+#footer div {
+    display: flex;
+    justify-content: space-around;
+}
+#footer {
+    height: 15vh;
+    margin: 10px 10px 10px 10px;
+    padding: 20px;
+    background-color: lightgray;
+}
+#footer li {
+    font-weight: normal;
+}
+
+.link:hover {
+    color: blue;
+    font-weight: bold;
+}
