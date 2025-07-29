@@ -63,8 +63,8 @@ nav ul {
 }
 
 button {
-    background-color: cornflowerblue;
-    color: white;
+    background-color: rgba(134, 237, 100, 0.522);
+    color: rgb(8, 12, 243);
     width: 150px;
     height: 60px;
     font-size: 25px;
@@ -119,6 +119,13 @@ button {
 }
 
 .link:hover {
-    color: blue;
+    color: rgba(0, 0, 255, 0.888);
     font-weight: bold;
 }
+
+/* header configurations */
+/* related to local market page */
+#localmarket {
+    margin: 0 auto;
+}
+
