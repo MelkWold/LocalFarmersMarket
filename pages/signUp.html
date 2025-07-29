@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
     <link rel="stylesheet" href="styles/styles.css">
-</head>
-<body>
+
     <style>
-        body {font-size: 30px}
+        body {
+            font-size: 30px;
+            box-sizing:border-box;
+            height: 75vh;
 
        #signUpform { 
                border: 1px solid black;
@@ -19,27 +21,47 @@
                display: block; 
            }
 
-       #email, #username, #signUpButton {
-           width:200px;
+       #email, #username, #password {
+           width:300px;
            height: 30px;
            font-size: 25px;
        }
+
+       #signUpButton {
+        width:150px;
+            height: 35px;
+            font-size: 25px;
+            background-color: rgb(108, 108, 241);
+            color: white;
+       }
+       h1, form {
+        margin: 20px 20px 20px 20px;
+        padding: 30px;
+       }
+
+       #signUpButton:hover {
+        background-color: rgb(15, 162, 162);
+        color: black;
+       }
+
    </style>
+</head>
+    
 <body>
-   <div>
-       
        <div id = "signUpform">
            <h1>Sign Up</h1>
            <form action ="process_signup.php" method ="POST">
                <label for ="email">Email:</label><br>
-               <input type="email" id ="email" name="email" required><br><br>
+               <input type="email" id ="email" name="email" placeholder="Enter your email" required><br><br>
 
                <label for ="username">Username:</label><br>
-               <input type="username" id ="username" name="username" required><br><br>
+               <input type="username" id ="username" name="username" placeholder="Username" required><br><br>
+
+               <label for ="password">Password:</label><br>
+                <input type="password" id ="password" name="password" placeholder="Password" required><br><br><br>
 
                <button type ="submit" id = "signUpButton">Sign up</button>
            </form>
-       </div>
-   </div>  
+       </div> 
 </body>
 </html>
