@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="../styles/styles.css">
 
     <style>
         body {
@@ -30,7 +30,7 @@
 
        #signUpButton {
         width:150px;
-            height: 35px;
+            height: 50px;
             font-size: 25px;
             background-color: rgb(108, 108, 241);
             color: white;
@@ -53,6 +53,23 @@
         <img src = "/images/icon.png" alt ="logo for Farmers markets online" width = "150px" height="150px" class="icon">
         <h1 id = "webName">Local Farmers Markets</h1>
     </div>
+    
+    <nav>
+        <div>
+        <ul>
+            <li class = "link"><a href="../index.html">Home</a></li>
+            <li class = "link"><a href="/pages/LocalMarkets.html">Local Markets</a></li>
+            <li class = "link"><a href="/pages/orderOnline.html">Order Online</a></li>
+            <li class = "link"><a href="/pages/contact.html">Contact Us</a></li>
+            <select name="Navigate" id="dropDown">
+                <option value="home"><a href="index.html">Home</a></option>
+                <option value="signIn"><a href="/pages/signIn.html">Sign In</a></option>
+                <option value="contact">Contact</option>
+            </select>
+            <li><button id = "signin"><a href="/pages/signIn.html">Sign In</a></button></li>
+        </ul>
+        </div>
+    </nav><br>
     
     <div id = "signUpform">
            <h1>Sign Up</h1>
