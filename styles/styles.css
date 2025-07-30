@@ -4,7 +4,11 @@ body, html {
     background-color: beige;
     font-size: 30px;
     box-sizing:border-box;
-    height: 75vh;
+    height: 100%;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
 }
 
 #logoAndName {
@@ -27,7 +31,7 @@ nav ul {
     margin: 10px 10px 10px 10px;
     align-items: center;
     padding:20px;
-    gap:40px;
+    gap:20px;
 }
 
 #dropDown {
@@ -72,10 +76,12 @@ button {
     padding:10px;
 }
 
-
 #hero div {
-    gap: 20px;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 50px;
     text-align: center;
+    justify-content: center;
 }
 
 #hero {
@@ -99,8 +105,8 @@ button {
 
 .card {
     border: 1px dotted blue;
-    width: 500px;
-    height:300px;
+    width: 600px;
+    height:400px;
     padding: 40px;
     margin:20px;
 }
@@ -136,9 +142,11 @@ button {
     margin-bottom: 500px;
 }
 
-.contactContainer {
-    border: 1px solid black;
-    width:500px;
+#contactContainer {
+    border: 2px solid black;
+    padding: 50px;
+    margin: 20 px auto;
+    width:600px;
     font-size:30px;
-    background-color: blue;
+    margin: 0 auto;
 }
