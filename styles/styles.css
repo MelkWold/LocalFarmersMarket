@@ -157,3 +157,8 @@ button {
     font-size:30px;
     margin: 0 auto;
 }
+
+#productCatalog {
+    display: flex;
+    flex-wrap: wrap;
+}
